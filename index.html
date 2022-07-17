@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <title>Random</title>
+    
+<meta name="description" content="An easy to use API that allows you to get waifu pictures from an archive of over 4000 images and multiple tags!"/>
+<meta property="og:site_name" content="waifu.im"/>
+<meta property="og:title" content="Waifu.im"/>
+<meta property="og:description" content="An easy to use API that allows you to get waifu pictures from an archive of over 4000 images and multiple tags!"/>
+<meta property="og:url" content="https://waifu.im/random/?is_nsfw=false"/>
+<meta property="og:image" content="https://waifu.im/favicon.ico"/>
+<meta content="#fec8fa" data-react-helmet="true" name="theme-color"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <script src="/cdn-cgi/apps/head/BpJ4-zbLn6nmNThV2LYH4ABCQzk.js"></script><link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.5.0/font/bootstrap-icons.css">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="/static/css/custom.css">
+    <script>
+        var cookiestring="ageverif"+'=True;path=/'
+	</script>
+</head>
+
+<body>
+    
+    <div class="fixed-top">
+        <nav class="navbar navbar-dark" style="background-color:   #272727;height: 64px;font-family: Roboto,sans-serif;z-index: 10;">
+            <div class="container-fluid">
+                <button class="navbar-toggler" type="button" data-bs-toggle="offcanvas" data-bs-target="#main-sidebar" aria-controls="main-sidebarlabel">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+                <a class="navbar-brand" href="">
+                    WAIFU.IM
+                </a>
+                <img src="/favicon.ico" width="35" height="35" class="d-inline-block align-top" alt="">
+            </div>
+        </nav>
+    </div>
+    <div class="approval" style="visibility: hidden;">
+        
+<div class="offcanvas offcanvas-start" style="background-color: #272727;" tabindex="-1" id="main-sidebar" data-bs-scroll="false" data-bs-backdrop="false" aria-labelledby="main-sidebarlabel" aria-modal="true" role="dialog">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="d-grid gap-2">
+            
+<a type="button" href="/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-house"></span> Home</a>
+<button type="button" style="color: #fff" class="btn btn-lg heffect text-start shadow-none" data-bs-toggle="offcanvas" data-bs-target="#images-sidebar" aria-controls="image-sidebarlabel"><span class="bi-images"></span> Images<span class="bi-arrow-return-right float-end"></span></button>
+<a type="button" href="/tags/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-tags"></span> Tags</a>
+<a type="button" href="/upload/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-upload"></span> Upload</a>
+<a type="button" href="/docs/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-book-half"></span> Docs</a>
+<button type="button" style="color: #fff" class="btn btn-lg heffect text-start shadow-none" data-bs-toggle="offcanvas" data-bs-target="#info-sidebar" aria-controls="info-sidebarlabel"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16"><path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"/></svg> Info & Support Us<span class="bi-arrow-return-right float-end"></span></button>
+<a type="button" href="/login/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-box-arrow-in-left"></span> Login</a>
+
+
+        </div>
+    </div>
+</div>
+<div class="offcanvas offcanvas-start" style="background-color: #272727;" tabindex="-1" id="images-sidebar" data-bs-scroll="false" data-bs-backdrop="false" aria-labelledby="images-sidebarlabel" aria-modal="true" role="dialog">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="d-grid gap-2">
+            <a type="button" href="/random/?is_nsfw=true" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-exclamation-lg"></span> NSFW</a>
+            <a type="button" href="/fav/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-heart"></span> Favourites</a>
+            <a type="button" href="/random/?order_by=FAVOURITES&is_nsfw=null" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-arrow-up-circle"></span> Top</a>
+            <a type="button" href="/recent/" style="color: #fff" class="btn btn-lg heffect text-start shadow-none"><span class="bi-clock-history"></span> Recent Uploads</a>
+        </div>
+    </div>
+</div>
+
+<div class="offcanvas offcanvas-start" style="background-color: #272727;" tabindex="-1" id="info-sidebar" data-bs-scroll="false" data-bs-backdrop="false" aria-labelledby="info-sidebarlabel" aria-modal="true" role="dialog">
+    <div class="offcanvas-header">
+        <button type="button" class="btn-close btn-close-white text-reset" data-bs-dismiss="offcanvas" aria-label="Close"></button>
+    </div>
+    <div class="offcanvas-body">
+        <div class="d-grid gap-2">
+            <a type="button" class="btn btn-lg heffect text-start heffect shadow-none" href="/contact/" style="color: #fff"><span class="bi-telephone-forward"></span> Contact us</a>
+            <a type="button" class="btn btn-lg heffect text-start shadow-none" href="https://github.com/Waifu-im/" style="color: #fff" ><span class="bi-github"></span> Github</a>
+            <a type="button" class="btn btn-lg heffect text-start shadow-none" href="https://ayane.fr/invite/" style="color: #fff"><span class="bi-discord"></span> Discord Bot</a>
+            <a type="button" class="btn btn-lg heffect text-start shadow-none" href="https://paypal.me/arnaudbucolo" style="color: #fff"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" fill="currentColor" class="bi bi-paypal" viewBox="0 0 16 16"><path d="M14.06 3.713c.12-1.071-.093-1.832-.702-2.526C12.628.356 11.312 0 9.626 0H4.734a.7.7 0 0 0-.691.59L2.005 13.509a.42.42 0 0 0 .415.486h2.756l-.202 1.28a.628.628 0 0 0 .62.726H8.14c.429 0 .793-.31.862-.731l.025-.13.48-3.043.03-.164.001-.007a.351.351 0 0 1 .348-.297h.38c1.266 0 2.425-.256 3.345-.91.379-.27.712-.603.993-1.005a4.942 4.942 0 0 0 .88-2.195c.242-1.246.13-2.356-.57-3.154a2.687 2.687 0 0 0-.76-.59l-.094-.061ZM6.543 8.82a.695.695 0 0 1 .321-.079H8.3c2.82 0 5.027-1.144 5.672-4.456l.003-.016c.217.124.4.27.548.438.546.623.679 1.535.45 2.71-.272 1.397-.866 2.307-1.663 2.874-.802.57-1.842.815-3.043.815h-.38a.873.873 0 0 0-.863.734l-.03.164-.48 3.043-.024.13-.001.004a.352.352 0 0 1-.348.296H5.595a.106.106 0 0 1-.105-.123l.208-1.32.845-5.214Z"/></svg> Support us</a>
+        </div>
+    </div>
+</div>
+
+        <button class="btn" id="reloadbutton" onClick="window.location.reload()" style="background-color:#272727 ;width: 4rem;border: none;border-radius: 50%; height: 4rem;position:fixed; bottom:2rem; z-index: 1;right:2rem;"><span style="font-size:2rem; color :#fff;" class="bi bi-arrow-repeat"></span></button>
+        <div class="row-g-0" id="ctm">
+        </div>
+<script defer src="https://static.cloudflareinsights.com/beacon.min.js/v652eace1692a40cfa3763df669d7439c1639079717194" integrity="sha512-Gi7xpJR8tSkrpF7aordPZQlW2DLtzUlZcumS8dMQjwDHEnw9I7ZLyiOj/6tZStRBGtGgN6ceN6cMH8z7etPGlw==" data-cf-beacon='{"rayId":"72c3203d491178c4","version":"2022.6.0","r":1,"token":"ceb596fcfae54a66b0a6db6306ef5ebc","si":100}' crossorigin="anonymous"></script>
+</body>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/jquery/3.6.0/jquery.min.js"></script>
+<script src="https://unpkg.com/masonry-layout@4/dist/masonry.pkgd.min.js"></script>
+<script src="https://unpkg.com/imagesloaded@4/imagesloaded.pkgd.min.js"></script>
+<script>
+var is_nsfw = false
+var has_cookie = "True"
+var files = ["https://cdn.waifu.im/0a07f0e28f0749ca.jpeg", "https://cdn.waifu.im/0d80f58302954490.jpg", "https://cdn.waifu.im/0fd0ce52fc5deb55.jpg", "https://cdn.waifu.im/23188d71199787e8.jpeg", "https://cdn.waifu.im/2b7baaf2374c1b56.jpeg", "https://cdn.waifu.im/311db9c19f2eed7d.jpeg", "https://cdn.waifu.im/375db50e68b8dbd7.png", "https://cdn.waifu.im/3867126be8e260b5.jpeg", "https://cdn.waifu.im/3e029dd67d9e18a8.png", "https://cdn.waifu.im/48696599f056ef5b.png", "https://cdn.waifu.im/56180d68b3ec12f9.jpeg", "https://cdn.waifu.im/594bab02a6b58b7c.png", "https://cdn.waifu.im/64b2406b511e2475.jpeg", "https://cdn.waifu.im/71e3737745bdd5d8.png", "https://cdn.waifu.im/782319462c3888e7.jpeg", "https://cdn.waifu.im/7af60626be7305e5.jpeg", "https://cdn.waifu.im/81076d57aa027ea6.jpeg", "https://cdn.waifu.im/927e7d3446789280.jpeg", "https://cdn.waifu.im/936f603e75775dc9.jpg", "https://cdn.waifu.im/96a150426caa0ad8.png", "https://cdn.waifu.im/9dc0c5491a0e3c65.jpeg", "https://cdn.waifu.im/a3b8f4646f23316a.jpeg", "https://cdn.waifu.im/aaf20ddcb5b7b7c4.png", "https://cdn.waifu.im/add20d575f941d88.png", "https://cdn.waifu.im/bc96f6b5f9d315ab.png", "https://cdn.waifu.im/d08e600c2cfdea79.png", "https://cdn.waifu.im/dc45a84168e39c0d.jpeg", "https://cdn.waifu.im/e7df0d2f8f03e417.jpg", "https://cdn.waifu.im/f3a3ca502eccf469.png", "https://cdn.waifu.im/fc3bcf285eae9ff0.jpeg"]
+if (has_cookie || !is_nsfw) {
+    $('.approval').css('visibility', 'visible')
+} else {
+    var ageverif = new bootstrap.Modal(document.getElementById('Ageverif'))
+    ageverif.show()
+    $('#over18button').focus()
+}
+var elem = document.querySelector('#ctm');
+var masonry = new Masonry(elem, { "itemSelector": ".grid-item", "percentPosition": true, "gutter": 0, "transitionDuration": 0 });
+
+for (const i of files) {
+    item = document.createElement('div');
+    item.className = "col-md-2 grid-item";
+    item.innerHTML = `<a href="/preview/${i.split('/').pop()}"><img class="img-fluid"  alt="..." src=${i}></a>`;
+    elem.appendChild(item);
+    masonry.addItems(item);
+    masonry.layout();
+    imagesLoaded(elem).on('progress', function() { masonry.layout(); })
+}
+</script>
